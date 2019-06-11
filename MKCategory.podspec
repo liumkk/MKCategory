@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "MKCategory"
-  s.version      = "1.0.0"
+  s.version      = "1.0.1"
   s.summary      = "一个公用的category"
 
   # This description is used to generate tags and improve search results.
@@ -91,7 +91,7 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "MKCategory/**/*.{h,m}"
+  s.source_files  = "MKCategory/MKCategory/**/*.{h,m}"
   #s.exclude_files = "MKCategory/Exclude"
 
   #s.public_header_files = "MKCategory/**/*.h"
