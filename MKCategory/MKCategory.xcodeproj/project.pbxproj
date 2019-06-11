@@ -17,6 +17,7 @@
 		D638672322AFFD560020DE4B /* MKCategoryUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D638672222AFFD560020DE4B /* MKCategoryUITests.m */; };
 		D638673622AFFD9A0020DE4B /* UIImage+MKAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = D638673122AFFD9A0020DE4B /* UIImage+MKAdditions.m */; };
 		D638673722AFFD9A0020DE4B /* UIView+MKAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = D638673522AFFD9A0020DE4B /* UIView+MKAdditions.m */; };
+		D638673A22AFFED30020DE4B /* NSString+MKAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = D638673922AFFED30020DE4B /* NSString+MKAdditions.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +59,8 @@
 		D638673322AFFD9A0020DE4B /* UIImage+MKAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+MKAdditions.h"; sourceTree = "<group>"; };
 		D638673422AFFD9A0020DE4B /* MKCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKCategory.h; sourceTree = "<group>"; };
 		D638673522AFFD9A0020DE4B /* UIView+MKAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+MKAdditions.m"; sourceTree = "<group>"; };
+		D638673822AFFED30020DE4B /* NSString+MKAdditions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+MKAdditions.h"; sourceTree = "<group>"; };
+		D638673922AFFED30020DE4B /* NSString+MKAdditions.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+MKAdditions.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -145,9 +148,11 @@
 			children = (
 				D638673422AFFD9A0020DE4B /* MKCategory.h */,
 				D638673222AFFD9A0020DE4B /* UIView+MKAdditions.h */,
-				D638673122AFFD9A0020DE4B /* UIImage+MKAdditions.m */,
 				D638673522AFFD9A0020DE4B /* UIView+MKAdditions.m */,
 				D638673322AFFD9A0020DE4B /* UIImage+MKAdditions.h */,
+				D638673122AFFD9A0020DE4B /* UIImage+MKAdditions.m */,
+				D638673822AFFED30020DE4B /* NSString+MKAdditions.h */,
+				D638673922AFFED30020DE4B /* NSString+MKAdditions.m */,
 			);
 			path = MKCategory;
 			sourceTree = "<group>";
@@ -283,6 +288,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D638673722AFFD9A0020DE4B /* UIView+MKAdditions.m in Sources */,
+				D638673A22AFFED30020DE4B /* NSString+MKAdditions.m in Sources */,
 				D638670322AFFD550020DE4B /* ViewController.m in Sources */,
 				D638670E22AFFD560020DE4B /* main.m in Sources */,
 				D638670022AFFD550020DE4B /* AppDelegate.m in Sources */,
